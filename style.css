@@ -1,0 +1,19 @@
+/*Aqui vamos estilizar a pagina toda, e ter certeza de que vai 
+ficar tudo certo em qualquer dispositivo*/
+* {
+    margin: 0;
+    padding: 0; /*define margem pra zero*/ 
+    box-sizing: border-box; /*garante que que as margens tao inclusas na largura e altura da pagina*/
+}
+
+/*Aqui é acessada a classe canvas*/
+#canvas {
+    border: 5px solid #f59e07; /*faz uma borda solida*/
+    position: absolute; /*ajuda a posicionar com mais precisao*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*centraliza o canvas*/
+    background: #bff5e6; /*fundo do canvas*/
+    max-width: 100%;
+    max-height: 100%; /*define que o canvas nao vai ser maior q a tela*/
+}
